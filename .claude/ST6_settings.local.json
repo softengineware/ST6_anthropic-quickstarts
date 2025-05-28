@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo fork:*)",
+      "Bash(chmod:*)",
+      "Bash(find:*)",
+      "Bash(mv:*)",
+      "Bash(ls:*)",
+      "Bash(true)",
+      "Bash(python3:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": false
+}
