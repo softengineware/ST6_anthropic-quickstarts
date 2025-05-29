@@ -29,24 +29,47 @@
 - [x] Rename repository to ST6_anthropic-quickstarts
 - [x] Update repository description with SEAL Team Six branding
 
----
-
-## 🚧 IN PROGRESS TASKS
-
-### Workflow Restoration
-- [ ] Restore .github/workflows/ST6_build.yaml via GitHub UI
-- [ ] Restore .github/workflows/ST6_reusable_build_step.yaml via GitHub UI  
-- [ ] Restore .github/workflows/ST6_tests.yaml via GitHub UI
-- [ ] Verify all workflows function correctly with ST6_ naming
-
-### Documentation Enhancement
-- [ ] Create comprehensive ST6_CONTRIBUTING.md guide
-- [ ] Add SEAL Team Six coding standards to documentation
-- [ ] Create ST6_ARCHITECTURE.md with system design principles
+### Phase 4: Documentation & Planning ✓
+- [x] Create ST6_TASKS.md for comprehensive task tracking
+- [x] Create ST6_SEAL_TEAM_SIX_PRINCIPLES.md with elite engineering guide
+- [x] Create ST6_MISSION_BRIEFING.md for session continuity
+- [x] Archive transformation scripts to ~/devops/ST6-tools/
 
 ---
 
-## 📋 PENDING TASKS (MVP)
+## 🚧 IN PROGRESS TASKS (MVP CRITICAL)
+
+### Priority 1: Agents Module Fix
+- [ ] Fix Python imports in ST6_agent.py for ST6_ module names
+- [ ] Update tools/__init__.py imports for ST6_ files
+- [ ] Fix utils module imports for ST6_ compatibility
+- [ ] Verify agent_demo.ipynb works with new structure
+- [ ] Test MCP tool integrations
+
+### Priority 2: Computer Use Demo Fix
+- [ ] Update Dockerfile for ST6_ file paths
+- [ ] Fix streamlit.py imports for ST6_ modules
+- [ ] Update shell scripts for ST6_ naming
+- [ ] Verify Docker build process
+- [ ] Test VNC and browser functionality
+
+### Priority 3: Customer Support Agent Fix
+- [ ] Update package.json scripts for ST6_ files
+- [ ] Fix TypeScript imports in all components
+- [ ] Update Next.js config for ST6_ structure
+- [ ] Verify API routes with ST6_ naming
+- [ ] Test build and deployment
+
+### Priority 4: Financial Data Analyst Fix
+- [ ] Update package.json for ST6_ compatibility
+- [ ] Fix chart component imports
+- [ ] Update API route handlers
+- [ ] Verify file upload with ST6_ structure
+- [ ] Test data visualization features
+
+---
+
+## 📋 PENDING TASKS (Post-MVP)
 
 ### Testing & Validation
 - [ ] Run all unit tests for agents module
