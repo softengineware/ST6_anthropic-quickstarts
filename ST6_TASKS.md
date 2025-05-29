@@ -50,9 +50,12 @@
 - [ ] Create requirements.txt with all dependencies
 
 ### Priority 2: Computer Use Demo Fix
-- [ ] Update Dockerfile for ST6_ file paths
-- [ ] Fix streamlit.py imports for ST6_ modules
-- [ ] Update shell scripts for ST6_ naming
+- [x] Update Dockerfile for ST6_ file paths (entrypoint)
+- [x] Fix streamlit.py imports for ST6_ modules
+- [x] Update shell scripts for ST6_ naming (entrypoint, start_all)
+- [x] Fix loop.py imports (removed ST6_ prefix from stdlib)
+- [ ] Fix all Python files in tools/ directory
+- [ ] Update remaining shell scripts (novnc, xvfb, etc.)
 - [ ] Verify Docker build process
 - [ ] Test VNC and browser functionality
 

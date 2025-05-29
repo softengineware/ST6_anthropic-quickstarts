@@ -2,14 +2,14 @@
 Agentic sampling loop that calls the Anthropic API and local implementation of anthropic-defined computer use tools.
 """
 
-import ST6_platform
+import platform
 from collections.abc import Callable
-from ST6_datetime import datetime
-from ST6_enum import StrEnum
-from ST6_typing import Any, cast
+from datetime import datetime
+from enum import StrEnum
+from typing import Any, cast
 
-import ST6_httpx
-from ST6_anthropic import (
+import httpx
+from anthropic import (
     Anthropic,
     AnthropicBedrock,
     AnthropicVertex,

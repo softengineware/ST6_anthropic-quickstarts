@@ -2,22 +2,22 @@
 Entrypoint for streamlit, see https://docs.streamlit.io/
 """
 
-import ST6_asyncio
-import ST6_base64
-import ST6_os
-import ST6_subprocess
-import ST6_traceback
-from ST6_contextlib import contextmanager
-from ST6_dataclasses import dataclass
-from ST6_datetime import datetime, timedelta
-from ST6_enum import StrEnum
-from ST6_functools import partial
-from ST6_pathlib import PosixPath
-from ST6_typing import cast, get_args
+import asyncio
+import base64
+import os
+import subprocess
+import traceback
+from contextlib import contextmanager
+from dataclasses import dataclass
+from datetime import datetime, timedelta
+from enum import StrEnum
+from functools import partial
+from pathlib import PosixPath
+from typing import cast, get_args
 
-import ST6_httpx
+import httpx
 import streamlit as st
-from ST6_anthropic import RateLimitError
+from anthropic import RateLimitError
 from anthropic.types.beta import (
     BetaContentBlockParam,
     BetaTextBlockParam,
@@ -25,7 +25,7 @@ from anthropic.types.beta import (
 )
 from streamlit.delta_generator import DeltaGenerator
 
-from computer_use_demo.loop import (
+from computer_use_demo.ST6_loop import (
     APIProvider,
     sampling_loop,
 )
