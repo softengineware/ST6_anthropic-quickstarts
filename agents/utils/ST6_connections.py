@@ -1,10 +1,10 @@
 """Connection handling for MCP servers."""
 
-from ST6_abc import ABC, abstractmethod
-from ST6_contextlib import AsyncExitStack
-from ST6_typing import Any
+from abc import ABC, abstractmethod
+from contextlib import AsyncExitStack
+from typing import Any
 
-from ST6_mcp import ClientSession, StdioServerParameters
+from mcp import ClientSession, StdioServerParameters
 from mcp.client.sse import sse_client
 from mcp.client.stdio import stdio_client
 

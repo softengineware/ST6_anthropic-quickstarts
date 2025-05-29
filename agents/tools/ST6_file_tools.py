@@ -1,11 +1,11 @@
 """File operation tools for reading and writing files."""
 
-import ST6_asyncio
-import ST6_glob
-import ST6_os
-from ST6_pathlib import Path
+import asyncio
+import glob
+import os
+from pathlib import Path
 
-from .base import Tool
+from .ST6_base import Tool
 
 
 class FileReadTool(Tool):

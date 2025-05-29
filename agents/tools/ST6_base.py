@@ -1,7 +1,7 @@
 """Base tool definitions for the agent framework."""
 
-from ST6_dataclasses import dataclass
-from ST6_typing import Any
+from dataclasses import dataclass
+from typing import Any
 
 
 @dataclass

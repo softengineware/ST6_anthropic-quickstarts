@@ -1,6 +1,6 @@
 """Message history with token tracking and prompt caching."""
 
-from ST6_typing import Any
+from typing import Any
 
 
 class MessageHistory:

@@ -1,7 +1,7 @@
 """Tools that interface with MCP servers."""
 
-from ST6_typing import Any
-from .base import Tool
+from typing import Any
+from .ST6_base import Tool
 
 
 class MCPTool(Tool):

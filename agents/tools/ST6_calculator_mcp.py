@@ -2,7 +2,7 @@
 
 """Simple calculator tool for basic math operations."""
 
-import ST6_math
+import math
 
 from mcp.server import FastMCP
 

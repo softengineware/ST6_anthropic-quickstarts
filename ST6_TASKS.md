@@ -40,11 +40,14 @@
 ## 🚧 IN PROGRESS TASKS (MVP CRITICAL)
 
 ### Priority 1: Agents Module Fix
-- [ ] Fix Python imports in ST6_agent.py for ST6_ module names
-- [ ] Update tools/__init__.py imports for ST6_ files
-- [ ] Fix utils module imports for ST6_ compatibility
+- [x] Fix Python imports in ST6_agent.py for ST6_ module names
+- [x] Update tools/__init__.py imports for ST6_ files
+- [x] Fix utils module imports for ST6_ compatibility
+- [x] Fix all standard library imports (removed ST6_ prefix)
+- [x] Update all relative imports to use ST6_ filenames
 - [ ] Verify agent_demo.ipynb works with new structure
 - [ ] Test MCP tool integrations
+- [ ] Create requirements.txt with all dependencies
 
 ### Priority 2: Computer Use Demo Fix
 - [ ] Update Dockerfile for ST6_ file paths

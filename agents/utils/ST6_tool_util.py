@@ -1,7 +1,7 @@
 """Tool execution utility with parallel execution support."""
 
-import ST6_asyncio
-from ST6_typing import Any
+import asyncio
+from typing import Any
 
 
 async def _execute_single_tool(

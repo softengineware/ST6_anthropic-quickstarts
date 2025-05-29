@@ -1,17 +1,17 @@
 """Agent implementation with Claude API and tools."""
 
-import ST6_asyncio
-import ST6_os
-from ST6_contextlib import AsyncExitStack
-from ST6_dataclasses import dataclass
-from ST6_typing import Any
+import asyncio
+import os
+from contextlib import AsyncExitStack
+from dataclasses import dataclass
+from typing import Any
 
-from ST6_anthropic import Anthropic
+from anthropic import Anthropic
 
-from .tools.base import Tool
-from .utils.connections import setup_mcp_connections
-from .utils.history_util import MessageHistory
-from .utils.tool_util import execute_tools
+from .tools.ST6_base import Tool
+from .utils.ST6_connections import setup_mcp_connections
+from .utils.ST6_history_util import MessageHistory
+from .utils.ST6_tool_util import execute_tools
 
 
 @dataclass
